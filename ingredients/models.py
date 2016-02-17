@@ -5,7 +5,7 @@ from django.db import models
 
 # Create your models here.
 class Ingredient(models.Model):
-    name = models.CharField(max_length=64)
+    name = models.CharField(max_length=128)
     vegan = models.BooleanField(default=False)
 
     def __str__(self):
