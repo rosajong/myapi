@@ -1,0 +1,26 @@
+PLAN FOR WEBSITE
+
+It's a place to read recipes
+The recipes are not all from cookbooks
+All recipes do have ingredients, a description, a name and an author
+
+All cookbooks have recipes (name) and authors
+
+
+APPS: recipes, cookbooks, ingredients, authors, names
+
+
+WATCH for relations between the fields of the models
+
+
+FUNCTIONALITIES:
+- Visitor must be able to search for recipes based on author, cookbook and an ingredient - keep it simple!
+- Visitor must be able to search for cookbook based on author
+
+
+FRONT END:
+- Home page with some explanation
+- Menu horizontally with different pages: cookbooks, recipes, authors
+- NO vertical columns anywhere
+- Images
+- Website is responsive

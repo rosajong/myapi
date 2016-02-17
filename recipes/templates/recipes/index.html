@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="base.css"
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body {
+            background-color: lavender;
+        }
+    </style>
+</head>
+<body>
+<h1> Look at these goddamn recipes and get some fucking inspiration! </h1>
+<ul class="navbar">
+    <li><a href="{% url 'home' %}">home</a></li>
+    <li><a href="{% url 'recipe-list' %}">recipes</a></li>
+    <li><a href="{% url 'cookbook-list' %}">cookbooks</a></li>
+    <li><a href="{% url 'ingredient-list' %}">ingredients</a></li>
+    <li><a href="{% url 'author-list' %}">authors</a></li>
+</ul>
+<div id="homepage content">
+    <p> Wow awesome website, fuck yeah!</p>
+
+</div>
+<img src="http://www.photobullseye.com/wp-content/uploads/2013/11/8-murica.png" style="width: 400px;height: 400px; float: left">
+{#{% for recipe in recipes %}#}
+{#    <h1>{{ recipe.name }}</h1>#}
+{#    <span>{{ recipe.author }}</span>#}
+{#    {% for cookbook in recipe.cookbooks.all %}#}
+{#        <a href="">{{ cookbook.name }}</a>#}
+{#    {% endfor %}#}
+{#{% endfor %}#}
+
+
+</body>
+</html>
